@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amol's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init("jyg6QxFkBtZ4Faes-"); // Replace with your User ID
+    })();
+</script>
+
+    <header>
+        <div class="container">
+            <h1>Hi, I'm <span>Amol</span></h1>
+            <p>Web Developer | Designer | Problem Solver</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Amol, a passionate web developer with a knack for creating stunning websites and solving challenging problems. I love turning ideas into reality with clean code and creative designs.</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>Crafting clean and structured websites.</p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>Building beautiful and responsive designs.</p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity and dynamic features.</p>
+                </div>
+                <div class="skill">
+                    <h3>Problem Solving</h3>
+                    <p>Tackling challenges with logical solutions.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>A responsive website for a local business.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>An e-commerce platform with user authentication.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3</h3>
+                    <p>An interactive portfolio for showcasing work.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+               <!-- This is a comment--> 
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Amol's Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
